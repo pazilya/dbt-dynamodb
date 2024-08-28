@@ -1,0 +1,9 @@
+version: 2
+ 
+sources:
+  - name: knoema_economy_data_atlas
+    database: PC_DBT_DB
+    schema: DBT_IPAZHITNYKH_PUBLIC
+    tables:
+      - name: EXRATESCC2018
+      - name: USINDSSP2020

@@ -1,0 +1,8 @@
+version: 2
+ 
+sources:
+    - name: landing_source
+      database: DYNAMO_PROJECT
+      schema: PUBLIC
+      tables:
+        - name: USINDSSP2020_LANDING_CP
